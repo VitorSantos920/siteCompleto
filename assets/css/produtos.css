@@ -3,16 +3,15 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    margin-top: 10px;
 }
 
 .main-content {
-    height: 69vh;
     width: 800px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 10px 0;
 }
 
 section {
@@ -30,3 +29,4 @@ section {
     height: 80%;
     border-radius: 4px;
 }
+

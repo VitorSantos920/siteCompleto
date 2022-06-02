@@ -5,13 +5,10 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: sans-serif;
 }
 
 .header{
-    height: 13vh;
     width: 100vw;
     background-color: rgb(214, 214, 216);
     display: flex;
@@ -27,6 +24,7 @@ body {
 #logo_base{
     height:80px;
     width: 80px;
+    margin: 10px;
 }
 
 .menu-itens{
@@ -47,7 +45,6 @@ a:hover {
 }
 
 .footer{
-    height: 22vh;
     width: 100vw;
     background-image: url("/assets/img/bg.jpg");
     display: flex;
@@ -55,6 +52,7 @@ a:hover {
     align-items: center;
     flex-direction: column;
     gap: 15px;
+    padding: 10px;
     color: white;
 }
 
