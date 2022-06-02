@@ -6,12 +6,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contato</title>
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/contato.css">
+        <link rel="stylesheet" href="assets/css/default.css">
     </head>
 
     <body>
         
-        <header>
+        <header class="header">
             <img src="assets/img/logo-nav.png" id="logo_base" alt="" class="img">
 
             <nav class="menu">
@@ -20,9 +21,37 @@
                     <li class="item"><a href="produtos.html">PRODUTO</a></li>
                     <li class="item"><a href="contato.html">CONTATO</a></li>
                 </ul>
-            </nav>
-            
+            </nav>    
+            </div>
         </header>
+
+        <div id="contato">
+            <label for="">Nome e Sobrenome</label>
+              <input type="text" id="nome_sobrenome">
+            <label for="emai">Email</label>
+              <input type="email" id="email"placeholder="seuemail@dominio.com" >
+            <label for="Telefone">Telefone</label>
+              <input type="text" id="Telefone" placeholder="(xx)xxxxx-xxxx">
+            <label for="">Mensagem</label>
+              <input type="text" id="nome_sobrenome">
+              <p>Como prefere o nosso contato?</p>
+              <input type="radio" name="option" value="Email" checked>
+
+              <input type="radio" name="option" value="Telefone">
+
+              <input type="radio" name="option" value="WhatsApp" >
+              <P>Qual horário prefere ser atendido?</P>
+              
+              <input type="checkbox">
+              
+
+        </div>
+
+        <footer class="footer">
+            <img src="./assets/img/logo-branco-rodape.png" id="logo-rodape" alt="">
+            <p id="rodape">&copy;Copyright Marcenaria Caioba - 2022</p>
+        </footer>
+            
     </body>
     
 </html>
