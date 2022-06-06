@@ -47,12 +47,8 @@ a:hover {
 .footer{
     width: 100vw;
     background-image: url("/assets/img/bg.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
-    padding: 10px;
+    text-align: center;
+    padding: 40px 0;
     color: white;
 }
 
